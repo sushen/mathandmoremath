@@ -1,13 +1,14 @@
-natural_number =
+natural_number = 1, 2, 3, 4, 5, 6, 7, 8, 9
 
 positive_number = 1, 2, 3, 4
 
-negative_number =
+negative_number = -2, -3, -4
 
-integer =
+integer = 1, 2, 3, -5, -8, -9
 
-direct_number =
+direct_number = -7, 6, +3
 
-line_number =
+line_number = -5, -4, -2, -1, 0, 1, 2, 3, 4, 5
 
-rounding =
+rounding = 65
+
