@@ -6,3 +6,6 @@ negative_number =
 
 integer =
 
+direct_number =
+
+line_number =
