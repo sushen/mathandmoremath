@@ -1,28 +1,14 @@
-add_number =
+add_number = 0, 2, 4, 6, 8
 
-numbers_power =
+numbers_power = 5**5, 8**2, 9**3, 7**5
 
-square_numer =
+square_number = 5**2, 8**2, 10**2
 
-cube_number =
+qube_number = 2**3, 8**3, 5**3
 
-number_square_rout =
+number_square_rout = 4**0.5, 16**0.5
 
-gunfal_square_rout =
+sum_square_rout= (8*2)**0.5, (9*2)**0.5, (5**2)**0.5
 
-number_cube_rout =
-
-factor =
-
-prime_number =
-
-prime_factor =
-
-negative_factor=
-
-multiples =
-
-lowest_common_multiple =
-
-highst_common_multiple =
-
+number_qube_rout= (8*8)**(1/)
+print(number_qube_rout)
