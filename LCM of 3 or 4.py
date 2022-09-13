@@ -1,17 +1,27 @@
-print("enter tow numbers to calculate LCM")
-a =int(input(":"))
-b =int(input(":"))
+# TODO 1: we need two Numbers, example 8,9
+number_one = 8
+number_two = 9
+# todo : cake higher number = number one> number two
 
-for i in range (1, a*b +1):
-    if i%a ==0 and i%b== 0:
-        print(i)
-        break
-if (a>b):
-    min1 = a
+# todo: the higher number is one
+# todo : or higher number two
+# todo : higher number reminds number one
+# todo : higher number reminds number two
+# todo lcm = higher number
+# todo :
+if higher % == 0 and higher % number_two ==0:
+    print(number_one, number_two, higher)
+    break
 else:
-    min1 = b
-    while(1):
-        if (min1%a==0 and min1%b==0):
-            print(min1)
-            break
-            min1 = min1=1
+    higher = higher+higher
+
+#todo:
+
+# todo 2: fast number reminds while end result = 0
+# while number_one%number_two == 0:
+# todo 3: second number reminds which end result =0
+# reminds = number_two%number_one
+# todo 4: two result lowest common number
+
+# todo 5: lowest common number count
+# todo 6: count result
