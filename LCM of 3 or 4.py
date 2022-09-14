@@ -1,27 +1,23 @@
 # TODO 1: we need two Numbers, example 8,9
-number_one = 8
-number_two = 9
 # todo : cake higher number = number one> number two
-
 # todo: the higher number is one
-# todo : or higher number two
-# todo : higher number reminds number one
-# todo : higher number reminds number two
+# todo : or higher number is two
+# todo : higher number reminds number one result = 0
+# todo : higher number reminds number two result = 0
 # todo lcm = higher number
-# todo :
-if higher % == 0 and higher % number_two ==0:
-    print(number_one, number_two, higher)
-    break
+# todo : higher number = number one * number two
+
+
+number_one = int(input("Enter any number:"))
+number_two = int(input("Enter any number:"))
+if number_one >number_two:
+    higher_number = number_one
 else:
-    higher = higher+higher
+    higher_number = number_two
+while True:
+    if ((higher_number % number_one == 0) and (higher_number % number_two == 0)):
+        lcm = higher_number
+        break
+    higher_number = number_one*number_two
+print(lcm)
 
-#todo:
-
-# todo 2: fast number reminds while end result = 0
-# while number_one%number_two == 0:
-# todo 3: second number reminds which end result =0
-# reminds = number_two%number_one
-# todo 4: two result lowest common number
-
-# todo 5: lowest common number count
-# todo 6: count result

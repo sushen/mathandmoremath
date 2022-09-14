@@ -5,3 +5,5 @@ for num in range (1, 100):
                 break
         else:
             print(num)
+  higher = 10
+  
