@@ -8,7 +8,8 @@ if number_one > number_two:
 else:
     higher_number = number_two
 
-# TODO : ?
+# TODO : ? বড় সংখ্যাটিকে ছোটটি দিয়ে ভাগ করলে যদি ভাগশেষ 0 হয় তাহলে বড় সংখাটি ল সা গু..
+# todo: তাই বড় সংখাটিকে প্রথম এবং দ্বিতিয় নাম্বারটি দিয়ে ভাগ করি যদি ভাগশেষ 0 না হয় তবে দুটি সংখাকে গুন করে দেই।
 while True:
     print("looping")
     if (higher_number % number_one == 0) and (higher_number % number_two == 0):
