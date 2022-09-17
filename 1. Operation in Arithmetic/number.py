@@ -1,5 +1,7 @@
 natural_number = 1, 2, 3, 4, 5, 6, 7, 8, 9
 
+whole_number=0,1,2,3,4,5
+
 positive_number = 1, 2, 3, 4
 
 negative_number = -2, -3, -4

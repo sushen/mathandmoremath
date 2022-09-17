@@ -1,6 +1,6 @@
 even_number = 0, 2, 4, 6, 8
 
-odd_number = 1, 3, 5, 7, 9
+odd_number = 1, 3, 5, 7, 9, 11
 
 numbers_power = 5**5, 8**2, 9**3, 7**5
 
