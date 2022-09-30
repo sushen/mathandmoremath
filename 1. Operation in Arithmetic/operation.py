@@ -11,7 +11,7 @@ Example 2 : Using Negative number we can define weather
 normal_day = 36
 summer_day = 52
 cold_day = -25
-print(f"Normal Day: {normal_day}")
+print(f"Normal Day : {normal_day}")
 
 """
 Example 3 : Using Negative number we can define Accounts Profit and Loss in business
