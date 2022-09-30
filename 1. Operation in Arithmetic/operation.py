@@ -2,7 +2,7 @@
 Example 1 : Using Negative number we can define number
 """
 number_line = -1, -2, -3, -4, -5, 0, 1, 2, 3, 4, 5
-# print(number_line)
+print(f'Line number: {number_line}\n')
 
 """
 Example 2 : Using Negative number we can define weather
@@ -11,7 +11,7 @@ Example 2 : Using Negative number we can define weather
 normal_day = 36
 summer_day = 52
 cold_day = -25
-print(normal_day)
+print(f"Normal Day: {normal_day}")
 
 """
 Example 3 : Using Negative number we can define Accounts Profit and Loss in business
