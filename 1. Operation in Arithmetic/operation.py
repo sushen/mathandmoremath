@@ -36,6 +36,11 @@ print(f"temperature: {temperature}\n" )
 Example 4 : Using Negative number we can define Power of your glasses
 """
 power = -90
-print(f'power:{power}\n' )
 
-print("done")
+
+"""
+Example 5 : Using Negative number we can define How a ship will float
+"""
+
+
+
