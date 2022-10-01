@@ -32,3 +32,7 @@ Example 4 : Using Negative number we can define temperature of ice
 temperature = -25
 # Power of your glasses
 power = -90
+
+"""
+Example 5 : Using Negative number we can define How a ship will float
+"""
