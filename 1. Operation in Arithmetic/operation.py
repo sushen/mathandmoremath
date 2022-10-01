@@ -11,7 +11,7 @@ Example 2 : Using Negative number we can define weather
 normal_day = 36
 summer_day = 52
 cold_day = -25
-print(f"Normal Day : {normal_day}")
+print(f"Normal Day : {normal_day}\n")
 
 """
 Example 3 : Using Negative number we can define Accounts Profit and Loss in business
@@ -23,16 +23,24 @@ day_3_loss = -3000
 day_4_loss = -4000
 day_5_profit = 5000
 line_of_profit_and_loss = 5000, 5000, 7000, -3000, -4000
-print(line_of_profit_and_loss)
+print(f"line_of_profit_and_loss: {line_of_profit_and_loss}\n")
 
 """
 Example 4 : Using Negative number we can define temperature of ice
 """
 
 temperature = -25
-# Power of your glasses
+print(f"temperature: {temperature}\n" )
+
+"""
+Example 4 : Using Negative number we can define Power of your glasses
+"""
 power = -90
+
 
 """
 Example 5 : Using Negative number we can define How a ship will float
 """
+
+
+
