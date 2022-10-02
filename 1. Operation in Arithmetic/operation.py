@@ -42,5 +42,10 @@ power = -90
 Example 5 : Using Negative number we can define How a ship will float
 """
 
+""" 
 
+Example 6 :
 
+The number of users increases and decreases while using the elevator
+
+"""
