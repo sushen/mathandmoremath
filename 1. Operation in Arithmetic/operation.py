@@ -39,8 +39,15 @@ power = -90
 
 
 """
-Example 5 : Using Negative number we can define How a ship will float
+Example 5 : Using Negative number we can define How a ship will float. How a boat floats on water.
+Because the density of water is less then the boat.
 """
-
-
-
+water_density = int(input("Enter the water density: "))
+ship_density: int = int(input("Enter the ship density: "))
+air_density = int(input("Enter the air density: "))
+ship_density_with_air = int(ship_density + air_density)
+less_density = (int(ship_density_with_air - water_density))
+# print(f"less density is: {less_density}")
+man_density = 10
+man_in_ship = int(less_density / man_density)
+print(f"Total people will catch on the ship is: {man_in_ship}")
