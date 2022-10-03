@@ -20,4 +20,4 @@ for number in range (2,number):
 if prime:
     print("This is prime number.")
 else:
-    print("This is not a prime number.")
+    print("This is not a prime number. ")
