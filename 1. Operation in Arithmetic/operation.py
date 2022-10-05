@@ -51,3 +51,10 @@ less_density = (int(ship_density_with_air - water_density))
 man_density = 10
 man_in_ship = int(less_density / man_density)
 print(f"Total people will catch on the ship is: {man_in_ship}")
+
+
+"""
+Example 6 : The number of users increases and decreases while using the elevator
+
+"""
+
