@@ -8,3 +8,6 @@ print(result)
 
 # TODO : Chapai Nawabganj Mango supply is 70 % of total exported mango and Bangladesh consume 15 % from Chapai Nawabganj
 #  mango production. This years bangladesh consume 100k mango. How many mango they produce This years.
+
+# I am tedting ding talk
+print("I am tedting ding talk")
