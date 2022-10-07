@@ -1,5 +1,7 @@
 """
 Gather possible decimal point
+Market Forcats : https://coincap.io/assets/bitcoin
+Api Documentation : https://docs.coincap.io/
 """
 from pprint import pprint
 
@@ -19,5 +21,9 @@ json_data = json.loads(response.text.encode('utf8'))
 
 seven_days_ago_price = json_data['data'][-7]['priceUsd']
 print(f"Seven Days Ago Price : {seven_days_ago_price}")
+
 today_price = json_data['data'][-1]['priceUsd']
 print(f"Today Price : {today_price}")
+
+print("Write your code below 'VVVVVV'")
+
