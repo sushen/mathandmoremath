@@ -9,7 +9,8 @@ import requests
 
 import json
 
-url = "http://api.coincap.io/v2/assets/bitcoin/history?interval=d1&start=1664323200000&end=1664928000000"
+# url = "http://api.coincap.io/v2/assets/bitcoin/history?interval=d1&start=1664323200000&end=1664928000000"
+url = "http://api.coincap.io/v2/assets/bitcoin/history?interval=d1"
 
 payload = {}
 headers = {}
