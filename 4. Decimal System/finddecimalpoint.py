@@ -20,7 +20,7 @@ response = requests.request("GET", url, headers=headers, data=payload)
 json_data = json.loads(response.text.encode('utf8'))
 
 
-previous_days = 7
+previous_days = 10
 
 seven_days_ago_price = json_data['data'][-previous_days]['priceUsd']
 print(f"Seven Days Ago Price : {seven_days_ago_price}")
@@ -30,3 +30,8 @@ print(f"Today Price : {today_price}")
 
 print("Write your code below 'VVVVVV'")
 
+seven_days_ago_price = float(seven_days_ago_price)
+today_price= float(today_price)
+different = (today_price - seven_days_ago_price)
+percentage = ((different*100)/seven_days_ago_price)
+print(f'price up and down percentage: {percentage} %')
