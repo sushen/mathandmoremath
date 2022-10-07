@@ -9,15 +9,3 @@ while True:
         break
     i = i + 1
 print(f"The LCM of {number_one} and {number_two} is: {i}\n")
-"""
-This number is prime or not.
-"""
-number = int(input("Enter the number: "))
-prime = True
-for number in range (2,number):
-    if number%number == 0:
-        prime = False
-if prime:
-    print("This is prime number.")
-else:
-    print("This is not a prime number. ")
