@@ -19,7 +19,9 @@ response = requests.request("GET", url, headers=headers, data=payload)
 json_data = json.loads(response.text.encode('utf8'))
 
 
-seven_days_ago_price = json_data['data'][-7]['priceUsd']
+previous_days = 7
+
+seven_days_ago_price = json_data['data'][-previous_days]['priceUsd']
 print(f"Seven Days Ago Price : {seven_days_ago_price}")
 
 today_price = json_data['data'][-1]['priceUsd']
