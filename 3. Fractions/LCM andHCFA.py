@@ -8,4 +8,4 @@ while True:
     if (i%number_one==0 and i%number_two==0):
         break
     i = i + 1
-print(f"The LCM of {number_one} and {number_two} is: {i}\n")
+print(f"The LCM of {number_one} and {number_two} is: {i}\n")+
