@@ -32,16 +32,19 @@ today_price = json_data['data'][-1]['priceUsd']
 # print(f"Today Price : {today_price}")
 
 # print("Write your code below 'VVVVVV'")
+price_list = []
+for price in json_data['data']:
+    # print(price)
+    # print(price['priceUsd'])
+    price_list.append(int(float(price['priceUsd'])))
 
-ten_days_data = []
-for i in range(10):
-# for i in range(10):
-    # print(-i)
-    # pprint(json_data['data'][-i]['priceUsd'])
-    ten_days_data.append(int(float(json_data['data'][-(i + 1)]['priceUsd'])))
+# print(price_list)
 
 
-print(ten_days_data)
-print(len(ten_days_data))
-print(sum(ten_days_data)/len(ten_days_data))
+for btc_price in price_list:
+    # print(len(price_list))
+    print(price_list[len(price_list)-1])
+    # print(btc_price)
+
+
 
