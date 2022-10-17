@@ -21,30 +21,27 @@ response = requests.request("GET", url, headers=headers, data=payload)
 
 json_data = json.loads(response.text.encode('utf8'))
 
-# pprint(json_data['data'])
+"""
+The average of last 7 days, 25 days and 90 days price.
+"""
+seven_days_price = []
+for i in range(1, 8):
+    print(f"{i} days price is: {json_data['data'][-i]['priceUsd']}")
+    seven_days_price.append(int(float(json_data['data'][-i]['priceUsd'])))
+average_a =(f'The average of seven days price is: {sum(seven_days_price)/(len(seven_days_price))}\n')
+print(average_a)
 
-previous_days = 7
+twenty_five_days_price = []
+for i in range(1, 26):
+    # print(f"{i} days price is: {json_data['data'][-i]['priceUsd']}")
+    twenty_five_days_price.append(int(float(json_data['data'][-i]['priceUsd'])))
+average_b =(f'The average of twenty five days price is: {sum(twenty_five_days_price)/(len(twenty_five_days_price))}\n')
+print(average_b)
 
-seven_days_ago_price = json_data['data'][-previous_days]['priceUsd']
-# print(f"Seven Days Ago Price : {seven_days_ago_price}")
-
-today_price = json_data['data'][-1]['priceUsd']
-# print(f"Today Price : {today_price}")
-
-# print("Write your code below 'VVVVVV'")
-price_list = []
-for price in json_data['data']:
-    # print(price)
-    # print(price['priceUsd'])
-    price_list.append(int(float(price['priceUsd'])))
-
-# print(price_list)
-
-
-for btc_price in price_list:
-    # print(len(price_list))
-    print(price_list[len(price_list)-1])
-    # print(btc_price)
-
-
+ninety_days_price = []
+for i in range(1, 91):
+    # print(f"{i} days price is: {json_data['data'][-i]['priceUsd']}")
+    ninety_days_price.append(int(float(json_data['data'][-i]['priceUsd'])))
+average_c =(f'The average of ninety days price is: {sum(ninety_days_price)/(len(ninety_days_price))}\n')
+print(average_c)
 
