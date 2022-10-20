@@ -40,37 +40,6 @@ def day_data(price_list, days):
         print(-1-btc_price)
         # print(btc_price)
 
-day_data(price_list, 7)
-
-i = 1
-
-
-# def appended():
-#     x = (seven_days_price.append(int(float(json_data['data'][-i]['priceUsd']))))
-#     return x
-
-
-def average(a):
-    seven_days_price = []
-    for i in range(1, 8):
-        # appended()
-        seven_days_price.append(int(float(json_data['data'][-i]['priceUsd'])))
-    y = (f'Day {a} to previous seven days price average is: {sum(seven_days_price) / (len(seven_days_price))}\n')
-    print(y)
-    return sum(seven_days_price) / (len(seven_days_price))
-
-# average(1)
-# average(2)
-# average(3)
-# average(4)
-
-
-# average1 = average(2, 9)
-# print(average1)
-#
-#
-# average1 = average(3, 10)
-# print(average1)
-#
-# average1 = average(4, 11)
-# print(average1)
+# day_data(price_list, 7)
+# day_data(price_list, 25)
+day_data(price_list, 90)
