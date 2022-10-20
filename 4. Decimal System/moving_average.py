@@ -21,6 +21,27 @@ json_data = json.loads(response.text.encode('utf8'))
 The average of last 7 days, 25 days and 90 days price.
 """
 
+
+def all_data(json_data):
+    price_list = []
+    for price in json_data:
+        price_list.append(int(float(price['priceUsd'])))
+    print(price_list)
+    return price_list
+
+
+price_list = all_data(json_data['data'])
+
+
+def day_data(price_list, days):
+    for btc_price in range(days):
+        # print(len(price_list))
+        print(price_list[len(price_list)-1-btc_price])
+        print(-1-btc_price)
+        # print(btc_price)
+
+day_data(price_list, 7)
+
 i = 1
 
 
@@ -38,13 +59,10 @@ def average(a):
     print(y)
     return sum(seven_days_price) / (len(seven_days_price))
 
-
-
-average(1)
-average(2)
-average(3)
-average(4)
-
+# average(1)
+# average(2)
+# average(3)
+# average(4)
 
 
 # average1 = average(2, 9)

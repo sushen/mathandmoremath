@@ -38,13 +38,13 @@ for price in json_data['data']:
     # print(price['priceUsd'])
     price_list.append(int(float(price['priceUsd'])))
 
-# print(price_list)
+print(price_list)
 
 
-for btc_price in price_list:
-    # print(len(price_list))
-    print(price_list[len(price_list)-1])
-    # print(btc_price)
+# for btc_price in price_list:
+#     # print(len(price_list))
+#     print(price_list[len(price_list)-1])
+#     # print(btc_price)
 
 
 
